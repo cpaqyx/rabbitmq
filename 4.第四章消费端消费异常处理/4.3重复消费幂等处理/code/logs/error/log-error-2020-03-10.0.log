@@ -1,0 +1,70 @@
+2020-03-10 20:34:14.459 [Druid-ConnectionPool-Create-1223360538] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/publisher?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:785)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:785)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1454)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:680)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:128)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:540)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:202)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1340)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 14 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 23 common frames omitted
+2020-03-10 20:37:59.401 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：The ApplicationContext is closed and the ConnectionFactory can no longer create connections.
+2020-03-10 20:50:49.814 [AMQP Connection 127.0.0.1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error; protocol method: #method<connection.close>(reply-code=320, reply-text=CONNECTION_FORCED - broker forced connection closure with reason 'shutdown', class-id=0, method-id=0)
+2020-03-10 20:55:07.847 [http-nio-8071-exec-4] ERROR f.c.d.f.controller.AmqpController - java.net.ConnectException: Connection refused: connect
+2020-03-10 20:55:11.875 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 20:55:30.955 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 21:21:55.030 [http-nio-8071-exec-1] ERROR f.c.d.f.controller.AmqpController - java.net.ConnectException: Connection refused: connect
+2020-03-10 21:21:59.060 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 21:22:28.262 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 21:24:06.822 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error; protocol method: #method<connection.close>(reply-code=320, reply-text=CONNECTION_FORCED - broker forced connection closure with reason 'shutdown', class-id=0, method-id=0)
+2020-03-10 21:24:48.223 [http-nio-8071-exec-4] ERROR f.c.d.f.controller.AmqpController - java.net.ConnectException: Connection refused: connect
+2020-03-10 21:25:01.645 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 21:25:14.110 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect
+2020-03-10 21:25:24.157 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - 扫描作业出错，信息：java.net.ConnectException: Connection refused: connect

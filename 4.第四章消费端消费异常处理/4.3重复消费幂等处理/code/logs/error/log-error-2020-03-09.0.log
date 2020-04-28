@@ -1,0 +1,11 @@
+2020-03-09 12:34:59.904 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:35:14.222 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:35:24.176 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:40:29.135 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:40:34.176 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:40:44.177 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:42:16.898 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:42:24.196 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:42:34.196 [scheduling-1] ERROR f.cloud.demo.fastwavebizpublisher.job.MQMessageJob - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:53:07.420 [http-nio-8071-exec-3] ERROR f.c.d.f.controller.AmqpController - java.net.ConnectException: Connection refused: connect
+2020-03-09 12:53:41.536 [http-nio-8071-exec-5] ERROR f.c.d.f.controller.AmqpController - java.net.ConnectException: Connection refused: connect

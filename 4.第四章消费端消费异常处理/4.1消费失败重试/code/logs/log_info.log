@@ -1,0 +1,182 @@
+2020-03-10 20:29:41.076 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 7324 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 20:29:41.086 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 20:29:42.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 20:29:42.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:29:42.961 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 20:29:42.986 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 20:29:43.116 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 20:29:43.117 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1939 ms
+2020-03-10 20:29:43.885 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 20:29:44.536 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:29:44.791 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 20:29:44.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:29:44.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 20:29:44.933 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 4.957 seconds (JVM running for 6.267)
+2020-03-10 20:29:45.132 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 20:29:45.132 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 20:29:45.143 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-03-10 20:31:52.316 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:33:33.029 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#52559a69:0/SimpleConnection@94eefb5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50356]
+2020-03-10 20:35:21.181 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 20:35:21.183 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:35:21.200 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 20:36:09.261 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 512 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 20:36:09.264 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 20:36:10.412 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 20:36:10.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:36:10.420 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 20:36:10.420 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 20:36:10.512 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 20:36:10.512 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1209 ms
+2020-03-10 20:36:10.894 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 20:36:11.282 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:36:11.462 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 20:36:11.552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:36:11.577 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 20:36:11.580 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 2.997 seconds (JVM running for 4.046)
+2020-03-10 20:36:19.155 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 20:36:19.157 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 20:36:19.166 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-03-10 20:36:27.895 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:36:27.937 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7edb6fca:0/SimpleConnection@aaa451a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50623]
+2020-03-10 20:37:59.376 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 20:37:59.377 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:37:59.395 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 20:45:18.716 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 6500 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 20:45:18.718 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 20:45:19.867 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 20:45:19.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:45:19.893 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 20:45:19.893 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 20:45:19.994 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 20:45:19.995 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1233 ms
+2020-03-10 20:45:20.387 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 20:45:20.799 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:45:21.095 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:45:21.118 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 20:45:21.126 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.088 seconds (JVM running for 4.058)
+2020-03-10 20:46:12.001 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 20:46:12.002 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 20:46:12.012 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-03-10 20:47:27.459 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:47:27.506 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#270a620:0/SimpleConnection@6d8c1366 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51289]
+2020-03-10 20:52:00.753 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:52:00.766 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 20:52:06.197 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 8832 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 20:52:06.200 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 20:52:07.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 20:52:07.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:52:07.634 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 20:52:07.634 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 20:52:07.737 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 20:52:07.737 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1487 ms
+2020-03-10 20:52:08.153 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 20:52:08.563 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 20:52:08.743 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 20:52:08.842 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 20:52:08.865 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 20:52:08.868 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.489 seconds (JVM running for 4.576)
+2020-03-10 20:53:02.797 [http-nio-8071-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 20:53:02.798 [http-nio-8071-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 20:53:02.806 [http-nio-8071-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-03-10 20:53:32.654 [http-nio-8071-exec-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:55:03.577 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:55:26.936 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:55:57.217 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 20:56:01.287 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2ec99035:3/SimpleConnection@5d7b2286 [delegate=amqp://guest@0:0:0:0:0:0:0:1:5672/, localPort= 51741]
+2020-03-10 21:06:06.673 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 21:06:06.675 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:06:06.693 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 21:12:28.899 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 11052 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 21:12:28.908 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 21:12:30.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 21:12:30.124 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:12:30.126 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 21:12:30.126 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 21:12:30.228 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 21:12:30.229 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1243 ms
+2020-03-10 21:12:30.686 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 21:12:31.132 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:12:31.416 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:12:31.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 21:12:31.443 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.341 seconds (JVM running for 4.465)
+2020-03-10 21:12:34.713 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 21:12:34.714 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 21:12:34.719 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-10 21:13:48.764 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:13:48.866 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3d53e6f7:0/SimpleConnection@5e588333 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52604]
+2020-03-10 21:19:02.593 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:19:02.617 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 21:19:08.234 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 7348 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 21:19:08.237 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 21:19:09.392 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 21:19:09.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:19:09.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 21:19:09.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 21:19:09.490 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 21:19:09.491 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1209 ms
+2020-03-10 21:19:09.876 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 21:19:10.252 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:19:10.433 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 21:19:10.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:19:10.549 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 21:19:10.552 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.141 seconds (JVM running for 4.205)
+2020-03-10 21:21:02.765 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 21:21:02.765 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 21:21:02.772 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-10 21:21:35.544 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:21:55.030 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:22:24.252 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:22:44.510 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:22:48.564 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2bc7db89:3/SimpleConnection@133628e0 [delegate=amqp://guest@0:0:0:0:0:0:0:1:5672/, localPort= 52931]
+2020-03-10 21:24:44.189 [http-nio-8071-exec-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:24:57.612 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:25:10.080 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:25:20.130 [scheduling-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:42:23.928 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 21:42:23.929 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:42:23.933 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 21:50:26.049 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 3592 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 21:50:26.052 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 21:50:27.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 21:50:27.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:50:27.319 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 21:50:27.319 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 21:50:27.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 21:50:27.413 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1311 ms
+2020-03-10 21:50:27.807 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 21:50:28.213 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 21:50:28.419 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 21:50:28.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 21:50:28.548 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 21:50:28.551 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.235 seconds (JVM running for 4.293)
+2020-03-10 21:55:18.581 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 21:55:18.581 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 21:55:18.586 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-10 21:55:18.767 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 21:55:18.808 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#52454457:0/SimpleConnection@7494c3ec [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53820]
+2020-03-10 22:02:11.196 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 22:02:11.198 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 22:02:11.213 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-10 22:08:26.884 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Starting FastwaveBizPublisherApplication on SC-201912111950 with PID 8588 (D:\workspace\fastwaveclouddemo\fastwave-biz-publisher\target\classes started by Administrator in D:\workspace\fastwaveclouddemo)
+2020-03-10 22:08:26.886 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - No active profile set, falling back to default profiles: default
+2020-03-10 22:08:28.138 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8071 (http)
+2020-03-10 22:08:28.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8071"]
+2020-03-10 22:08:28.150 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-10 22:08:28.150 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-10 22:08:28.248 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-10 22:08:28.248 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1313 ms
+2020-03-10 22:08:28.633 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-10 22:08:29.036 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-10 22:08:29.232 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-10 22:08:29.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8071"]
+2020-03-10 22:08:29.377 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8071 (http) with context path ''
+2020-03-10 22:08:29.380 [main] INFO  f.c.d.f.FastwaveBizPublisherApplication - Started FastwaveBizPublisherApplication in 3.33 seconds (JVM running for 4.389)
+2020-03-10 22:08:46.378 [http-nio-8071-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-10 22:08:46.379 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-10 22:08:46.384 [http-nio-8071-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-10 22:08:46.534 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2020-03-10 22:08:46.578 [http-nio-8071-exec-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#ee8e7ff:0/SimpleConnection@54ef2470 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54434]
+2020-03-10 22:24:22.423 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-03-10 22:24:22.425 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-10 22:24:22.438 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

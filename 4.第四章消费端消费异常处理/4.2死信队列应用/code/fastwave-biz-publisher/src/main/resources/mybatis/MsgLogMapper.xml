@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fastwave.cloud.demo.fastwavebizpublisher.dao.MsgLogDao">
+
+	<select id="list" resultType="fastwave.cloud.demo.fastwavebizpublisher.domain.MsgLogDO">
+		select
+			`msg_id`,
+			`msg`,
+			`exchange`,
+			`routing_key`,
+			`status`,
+			`try_count`,
+			`next_try_time`,
+			`create_time`,
+			`update_time`
+		from
+			msg_log
+		<where>
+			<if test="status != null and status != ''"> and status = #{status} </if>
+			<if test="tryCount != null and tryCount != ''"> and try_count &lt; ${tryCount} </if>
+		</where>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+
+	<insert id="save" parameterType="fastwave.cloud.demo.fastwavebizpublisher.domain.MsgLogDO" useGeneratedKeys="false" keyProperty="msg_id">
+		insert into msg_log
+		(
+			`msg_id`,
+			`msg`,
+			`exchange`,
+			`routing_key`,
+			`status`,
+			`try_count`,
+			`next_try_time`,
+			`create_time`,
+			`update_time`
+		)
+		values
+		(
+			#{msgId},
+			#{msg},
+			#{exchange},
+			#{routingKey},
+			#{status},
+			#{tryCount},
+			#{nextTryTime},
+			#{createTime},
+			#{updateTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="fastwave.cloud.demo.fastwavebizpublisher.domain.MsgLogDO">
+		update msg_log
+		<set>
+			<if test="exchange != null">`exchange` = #{exchange}, </if>
+			<if test="routingKey != null">`routing_key` = #{routingKey}, </if>
+			<if test="status != null">`status` = #{status}, </if>
+			<if test="tryCount != null">`try_count` = #{tryCount}, </if>
+			<if test="nextTryTime != null">`next_try_time` = #{nextTryTime}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="updateTime != null">`update_time` = #{updateTime}, </if>
+		</set>
+		where `msg_id` = #{msgId}
+	</update>
+
+	<update id="increaseTryTimes" parameterType="fastwave.cloud.demo.fastwavebizpublisher.domain.MsgLogDO">
+		update msg_log
+		set try_count = try_count + ${tryCount}
+		where `msg_id` = #{msgId}
+	</update>
+
+</mapper>

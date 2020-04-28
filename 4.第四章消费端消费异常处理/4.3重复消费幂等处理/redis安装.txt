@@ -1,0 +1,3 @@
+Windows redis安装
+https://redis.io/download 无window版本
+https://github.com/microsoftarchive/redis/releases

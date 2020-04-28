@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: biz-publisher
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#    publisher-confirms: true
+    publisher-returns: true
+    publisher-confirm-type: correlated
+server:
+  port: 8071
+
