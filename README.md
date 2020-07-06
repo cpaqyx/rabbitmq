@@ -1,2 +1,2 @@
-# rabbitmq
-rabbitmq课程资料
+﻿# rabbitmq
+rabbitmq第二版更新
