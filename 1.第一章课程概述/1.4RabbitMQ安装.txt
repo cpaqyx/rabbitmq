@@ -1,7 +1,7 @@
 erlang下载
 https://www.erlang.org/downloads
 安装路径：
-C:\Program Files\erl10.6
+C:\Program Files\er23.0
 
 
 rabbitmq下载
